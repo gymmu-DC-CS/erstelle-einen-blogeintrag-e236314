@@ -6,6 +6,16 @@
 
 body {
   margin: 0;
-  background-color: lightgray;
+  background-color:whitesmoke  ;
   font-family: sans-serif;
+}
+h1{
+  color:darkcyan 
+}
+
+#Bild {
+width: 300px;
+height: 300px;
+margin-left: auto;
+margin-right: auto;
 }
