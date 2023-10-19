@@ -37,6 +37,7 @@ text-align: left;}
   margin-left: 400px;
   margin-right: auto;
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .nicht-fett {
@@ -66,4 +67,18 @@ float:right;
   margin-right: 200px;
 
   
+}
+
+table{
+  font-size: 32px;
+  border: 2px solid black;
+  border-collapse: collapse;
+  background-color: aliceblue;
+  box-shadow: 3px 3px 3px black;
+
+}
+td, th{
+  border: 2px solid black;
+  padding: 25px 55px;
+  text-align: left;
 }
