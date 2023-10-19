@@ -10,12 +10,30 @@ body {
   font-family: sans-serif;
 }
 h1{
-  color:darkcyan 
+  color:deepskyblue 
 }
 
-#Bild {
-width: 300px;
+#bild {
+width: 400px;
 height: 300px;
-margin-left: auto;
+margin-left:30px;
 margin-right: auto;
+}
+
+
+.text-zentrieren{
+  text-align: center;                                   
+}
+.text-verschieben{
+  text-align: center;
+}
+.text-richten
+{ text-align:right;
+text-align: left;}
+
+#flagge{
+  width:500px ;
+  height: 300px;
+  margin-left: 400px;
+  margin-right: auto;
 }
