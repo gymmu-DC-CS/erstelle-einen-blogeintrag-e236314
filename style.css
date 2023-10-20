@@ -18,6 +18,7 @@ width: 400px;
 height: 300px;
 margin-left:30px;
 margin-right: auto;
+border: solid 10px grey;
 }
 
 
@@ -37,7 +38,7 @@ text-align: left;}
   margin-left: 400px;
   margin-right: auto;
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 100px;
 }
 
 .nicht-fett {
@@ -46,8 +47,8 @@ font-weight: lighter;
 
 
 #quadrat {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   background-color: aliceblue;
   margin-left: auto;
   margin-right: auto;
@@ -69,16 +70,24 @@ float:right;
   
 }
 
+
 table{
   font-size: 32px;
   border: 2px solid black;
   border-collapse: collapse;
-  background-color: aliceblue;
-  box-shadow: 3px 3px 3px black;
+background-color: aliceblue;
+box-shadow: 3px 3px 3px black;
+margin-bottom: 30px;
+}
 
-}
 td, th{
-  border: 2px solid black;
-  padding: 25px 55px;
-  text-align: left;
+border: 2px solid black;
+padding: 25px 55px ;
+text-align:left ;
 }
+
+thead{
+  box-shadow: 0 3px 6px black;
+  background-color: dodgerblue;
+}
+
