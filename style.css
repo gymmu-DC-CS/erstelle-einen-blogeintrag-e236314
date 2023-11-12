@@ -6,6 +6,88 @@
 
 body {
   margin: 0;
-  background-color: lightgray;
+  background-color:whitesmoke  ;
   font-family: sans-serif;
 }
+h1{
+  color:deepskyblue 
+}
+
+#bild {
+width: 400px;
+height: 300px;
+margin-left:30px;
+margin-right: auto;
+border: solid 10px grey;
+}
+
+
+.text-zentrieren{
+  text-align: center;                                   
+}
+.text-verschieben{
+  text-align: center;
+}
+.text-richten
+{ text-align:right;
+text-align: left;}
+
+#flagge{
+  width:500px ;
+  height: 300px;
+  margin-left: 400px;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+.nicht-fett {
+font-weight: lighter;
+}
+
+
+#quadrat {
+  width: 400px;
+  height: 400px;
+  background-color: aliceblue;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black ;
+  animation-name: farbwechsel;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+
+}
+@keyframes farbwechsel {
+  form{background-color: aliceblue;}
+  to{ background-color: cadetblue;}
+}
+
+.quadrat-verschieben {
+float:right;
+  margin-right: 200px;
+
+  
+}
+
+
+table{
+  font-size: 32px;
+  border: 2px solid black;
+  border-collapse: collapse;
+background-color: aliceblue;
+box-shadow: 3px 3px 3px black;
+margin-bottom: 30px;
+}
+
+td, th{
+border: 2px solid black;
+padding: 25px 55px ;
+text-align:left ;
+}
+
+thead{
+  box-shadow: 0 3px 6px black;
+  background-color: dodgerblue;
+}
+
